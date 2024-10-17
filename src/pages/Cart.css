@@ -1,0 +1,125 @@
+.cart-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cart-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .cart-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .cart-item-info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-item-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-price {
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-remove {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .cart-item-remove:hover {
+    background-color: #ff1a1a;
+  }
+  
+  .cart-total {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .empty-cart-message {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+  }
+  
+.quantity-controls {
+  display: flex;               
+  align-items: center;         
+  justify-content:left;   
+}
+
+.quantity-btn {
+  width: 40px;
+  height: 40px;
+  background-color:grey;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 0 5px;             
+  border-radius: 0;
+}
+
+.quantity-display {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 20px;              
+}
+
+.quantity-btn:hover {
+  background-color: #696969; 
+}
+
+.success-message {
+  text-align: center; 
+  color: green; 
+  margin-bottom: 20px; 
+  font-size: 1.2em; 
+  animation: fadeIn 0.5s; 
+}
+
+.button-container {
+  display: flex; 
+  gap: 10px; 
+  margin-top: 20px; 
+}
+
+.viewOrder-button,
+.back-button {
+  background-color: #276afc; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  
+}
+

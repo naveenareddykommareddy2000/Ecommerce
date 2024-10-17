@@ -1,0 +1,30 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 10px; 
+    justify-content: space-evenly; 
+    padding: 10px; 
+}
+.loading-spinner {
+    font-size: 48px; /* Adjust the size here */
+    color: #333;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+}
+
+/* Spinner animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Styling for the login message container */
+.h-container {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
